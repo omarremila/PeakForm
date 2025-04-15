@@ -1,0 +1,38 @@
+#root {
+
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.438);
+  backdrop-filter: blur(10px); /* Optional: adds a blur effect to the background */
+
+  color: white; /* So text is visible */
+}
+
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+  
+}
+
